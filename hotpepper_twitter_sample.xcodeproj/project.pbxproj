@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C0D1391472922800AF01F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D1381472922800AF01F2 /* UIKit.framework */; };
+		63C0D13B1472922800AF01F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D13A1472922800AF01F2 /* Foundation.framework */; };
+		63C0D13D1472922800AF01F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D13C1472922800AF01F2 /* CoreGraphics.framework */; };
+		63C0D1431472922900AF01F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C0D1411472922900AF01F2 /* InfoPlist.strings */; };
+		63C0D1451472922900AF01F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D1441472922900AF01F2 /* main.m */; };
+		63C0D15C147292A300AF01F2 /* UIAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D152147292A300AF01F2 /* UIAsyncImageView.m */; };
+		63C0D15D147292A300AF01F2 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D155147292A300AF01F2 /* EGOCache.m */; };
+		63C0D15E147292A300AF01F2 /* FNAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D157147292A300AF01F2 /* FNAAppDelegate.m */; };
+		63C0D15F147292A300AF01F2 /* FNADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D159147292A300AF01F2 /* FNADetailViewController.m */; };
+		63C0D160147292A300AF01F2 /* FNAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D15B147292A300AF01F2 /* FNAMasterViewController.m */; };
+		63C0D16C147292B600AF01F2 /* gourmet.json in Resources */ = {isa = PBXBuildFile; fileRef = 63C0D162147292B600AF01F2 /* gourmet.json */; };
+		63C0D16D147292B600AF01F2 /* FNADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D165147292B600AF01F2 /* FNADataManager.m */; };
+		63C0D16F147292B600AF01F2 /* FNACustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D169147292B600AF01F2 /* FNACustomAnnotation.m */; };
+		63C0D170147292B600AF01F2 /* FNAShopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D16B147292B600AF01F2 /* FNAShopViewCell.m */; };
+		63C0D172147292CD00AF01F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D171147292CD00AF01F2 /* MapKit.framework */; };
+		63C0D174147292D500AF01F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D173147292D500AF01F2 /* CoreLocation.framework */; };
+		63C0D176147292DE00AF01F2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0D175147292DE00AF01F2 /* Twitter.framework */; };
+		63C0D1831472935700AF01F2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0D17F1472935700AF01F2 /* MainStoryboard_iPad.storyboard */; };
+		63C0D1841472935700AF01F2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0D1811472935700AF01F2 /* MainStoryboard_iPhone.storyboard */; };
+		63C0D186147293D800AF01F2 /* bird_48_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C0D185147293D800AF01F2 /* bird_48_black.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63C0D1341472922800AF01F2 /* hotpepper_twitter_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotpepper_twitter_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C0D1381472922800AF01F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63C0D13A1472922800AF01F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63C0D13C1472922800AF01F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63C0D1401472922900AF01F2 /* hotpepper_twitter_sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hotpepper_twitter_sample-Info.plist"; sourceTree = "<group>"; };
+		63C0D1421472922900AF01F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63C0D1441472922900AF01F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63C0D1461472922900AF01F2 /* hotpepper_twitter_sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hotpepper_twitter_sample-Prefix.pch"; sourceTree = "<group>"; };
+		63C0D151147292A300AF01F2 /* UIAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAsyncImageView.h; sourceTree = "<group>"; };
+		63C0D152147292A300AF01F2 /* UIAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAsyncImageView.m; sourceTree = "<group>"; };
+		63C0D154147292A300AF01F2 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		63C0D155147292A300AF01F2 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		63C0D156147292A300AF01F2 /* FNAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNAAppDelegate.h; sourceTree = "<group>"; };
+		63C0D157147292A300AF01F2 /* FNAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNAAppDelegate.m; sourceTree = "<group>"; };
+		63C0D158147292A300AF01F2 /* FNADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNADetailViewController.h; sourceTree = "<group>"; };
+		63C0D159147292A300AF01F2 /* FNADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNADetailViewController.m; sourceTree = "<group>"; };
+		63C0D15A147292A300AF01F2 /* FNAMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNAMasterViewController.h; sourceTree = "<group>"; };
+		63C0D15B147292A300AF01F2 /* FNAMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNAMasterViewController.m; sourceTree = "<group>"; };
+		63C0D162147292B600AF01F2 /* gourmet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gourmet.json; sourceTree = "<group>"; };
+		63C0D164147292B600AF01F2 /* FNADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNADataManager.h; sourceTree = "<group>"; };
+		63C0D165147292B600AF01F2 /* FNADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNADataManager.m; sourceTree = "<group>"; };
+		63C0D168147292B600AF01F2 /* FNACustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNACustomAnnotation.h; sourceTree = "<group>"; };
+		63C0D169147292B600AF01F2 /* FNACustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNACustomAnnotation.m; sourceTree = "<group>"; };
+		63C0D16A147292B600AF01F2 /* FNAShopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNAShopViewCell.h; sourceTree = "<group>"; };
+		63C0D16B147292B600AF01F2 /* FNAShopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNAShopViewCell.m; sourceTree = "<group>"; };
+		63C0D171147292CD00AF01F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63C0D173147292D500AF01F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63C0D175147292DE00AF01F2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		63C0D1801472935700AF01F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		63C0D1821472935700AF01F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		63C0D185147293D800AF01F2 /* bird_48_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_48_black.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C0D1311472922800AF01F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0D176147292DE00AF01F2 /* Twitter.framework in Frameworks */,
+				63C0D174147292D500AF01F2 /* CoreLocation.framework in Frameworks */,
+				63C0D172147292CD00AF01F2 /* MapKit.framework in Frameworks */,
+				63C0D1391472922800AF01F2 /* UIKit.framework in Frameworks */,
+				63C0D13B1472922800AF01F2 /* Foundation.framework in Frameworks */,
+				63C0D13D1472922800AF01F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C0D1291472922800AF01F2 = {
+			isa = PBXGroup;
+			children = (
+				63C0D13E1472922900AF01F2 /* hotpepper_twitter_sample */,
+				63C0D1371472922800AF01F2 /* Frameworks */,
+				63C0D1351472922800AF01F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C0D1351472922800AF01F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D1341472922800AF01F2 /* hotpepper_twitter_sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C0D1371472922800AF01F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D175147292DE00AF01F2 /* Twitter.framework */,
+				63C0D173147292D500AF01F2 /* CoreLocation.framework */,
+				63C0D171147292CD00AF01F2 /* MapKit.framework */,
+				63C0D1381472922800AF01F2 /* UIKit.framework */,
+				63C0D13A1472922800AF01F2 /* Foundation.framework */,
+				63C0D13C1472922800AF01F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63C0D13E1472922900AF01F2 /* hotpepper_twitter_sample */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D161147292B600AF01F2 /* mock */,
+				63C0D163147292B600AF01F2 /* model */,
+				63C0D167147292B600AF01F2 /* view */,
+				63C0D14F147292A300AF01F2 /* external */,
+				63C0D156147292A300AF01F2 /* FNAAppDelegate.h */,
+				63C0D157147292A300AF01F2 /* FNAAppDelegate.m */,
+				63C0D158147292A300AF01F2 /* FNADetailViewController.h */,
+				63C0D159147292A300AF01F2 /* FNADetailViewController.m */,
+				63C0D15A147292A300AF01F2 /* FNAMasterViewController.h */,
+				63C0D15B147292A300AF01F2 /* FNAMasterViewController.m */,
+				63C0D17F1472935700AF01F2 /* MainStoryboard_iPad.storyboard */,
+				63C0D1811472935700AF01F2 /* MainStoryboard_iPhone.storyboard */,
+				63C0D13F1472922900AF01F2 /* Supporting Files */,
+			);
+			path = hotpepper_twitter_sample;
+			sourceTree = "<group>";
+		};
+		63C0D13F1472922900AF01F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D1401472922900AF01F2 /* hotpepper_twitter_sample-Info.plist */,
+				63C0D1411472922900AF01F2 /* InfoPlist.strings */,
+				63C0D1441472922900AF01F2 /* main.m */,
+				63C0D1461472922900AF01F2 /* hotpepper_twitter_sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63C0D14F147292A300AF01F2 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D150147292A300AF01F2 /* AsyncImageView */,
+				63C0D153147292A300AF01F2 /* enormego-EGOCache-8b7c7ec */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		63C0D150147292A300AF01F2 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D151147292A300AF01F2 /* UIAsyncImageView.h */,
+				63C0D152147292A300AF01F2 /* UIAsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		63C0D153147292A300AF01F2 /* enormego-EGOCache-8b7c7ec */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D154147292A300AF01F2 /* EGOCache.h */,
+				63C0D155147292A300AF01F2 /* EGOCache.m */,
+			);
+			path = "enormego-EGOCache-8b7c7ec";
+			sourceTree = "<group>";
+		};
+		63C0D161147292B600AF01F2 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D162147292B600AF01F2 /* gourmet.json */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		63C0D163147292B600AF01F2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D164147292B600AF01F2 /* FNADataManager.h */,
+				63C0D165147292B600AF01F2 /* FNADataManager.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		63C0D167147292B600AF01F2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D185147293D800AF01F2 /* bird_48_black.png */,
+				63C0D168147292B600AF01F2 /* FNACustomAnnotation.h */,
+				63C0D169147292B600AF01F2 /* FNACustomAnnotation.m */,
+				63C0D16A147292B600AF01F2 /* FNAShopViewCell.h */,
+				63C0D16B147292B600AF01F2 /* FNAShopViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C0D1331472922800AF01F2 /* hotpepper_twitter_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C0D14C1472922900AF01F2 /* Build configuration list for PBXNativeTarget "hotpepper_twitter_sample" */;
+			buildPhases = (
+				63C0D1301472922800AF01F2 /* Sources */,
+				63C0D1311472922800AF01F2 /* Frameworks */,
+				63C0D1321472922800AF01F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hotpepper_twitter_sample;
+			productName = hotpepper_twitter_sample;
+			productReference = 63C0D1341472922800AF01F2 /* hotpepper_twitter_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C0D12B1472922800AF01F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Recruit;
+			};
+			buildConfigurationList = 63C0D12E1472922800AF01F2 /* Build configuration list for PBXProject "hotpepper_twitter_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63C0D1291472922800AF01F2;
+			productRefGroup = 63C0D1351472922800AF01F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C0D1331472922800AF01F2 /* hotpepper_twitter_sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C0D1321472922800AF01F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0D1431472922900AF01F2 /* InfoPlist.strings in Resources */,
+				63C0D16C147292B600AF01F2 /* gourmet.json in Resources */,
+				63C0D1831472935700AF01F2 /* MainStoryboard_iPad.storyboard in Resources */,
+				63C0D1841472935700AF01F2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				63C0D186147293D800AF01F2 /* bird_48_black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C0D1301472922800AF01F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0D1451472922900AF01F2 /* main.m in Sources */,
+				63C0D15C147292A300AF01F2 /* UIAsyncImageView.m in Sources */,
+				63C0D15D147292A300AF01F2 /* EGOCache.m in Sources */,
+				63C0D15E147292A300AF01F2 /* FNAAppDelegate.m in Sources */,
+				63C0D15F147292A300AF01F2 /* FNADetailViewController.m in Sources */,
+				63C0D160147292A300AF01F2 /* FNAMasterViewController.m in Sources */,
+				63C0D16D147292B600AF01F2 /* FNADataManager.m in Sources */,
+				63C0D16F147292B600AF01F2 /* FNACustomAnnotation.m in Sources */,
+				63C0D170147292B600AF01F2 /* FNAShopViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C0D1411472922900AF01F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C0D1421472922900AF01F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63C0D17F1472935700AF01F2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C0D1801472935700AF01F2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		63C0D1811472935700AF01F2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C0D1821472935700AF01F2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C0D14A1472922900AF01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C0D14B1472922900AF01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C0D14D1472922900AF01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotpepper_twitter_sample/hotpepper_twitter_sample-Prefix.pch";
+				INFOPLIST_FILE = "hotpepper_twitter_sample/hotpepper_twitter_sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63C0D14E1472922900AF01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotpepper_twitter_sample/hotpepper_twitter_sample-Prefix.pch";
+				INFOPLIST_FILE = "hotpepper_twitter_sample/hotpepper_twitter_sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C0D12E1472922800AF01F2 /* Build configuration list for PBXProject "hotpepper_twitter_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C0D14A1472922900AF01F2 /* Debug */,
+				63C0D14B1472922900AF01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C0D14C1472922900AF01F2 /* Build configuration list for PBXNativeTarget "hotpepper_twitter_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C0D14D1472922900AF01F2 /* Debug */,
+				63C0D14E1472922900AF01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C0D12B1472922800AF01F2 /* Project object */;
+}
