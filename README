@@ -1,0 +1,23 @@
+#iOS5のTwitter.frameworkのサンプル
+FNADetailViewController.m
+TWTweetComposeViewControllerのサンプル簡単です
+- (IBAction)tweete:(id)sender {
+    if (![TWTweetComposeViewController canSendTweet]){
+        // エラー処理
+        return ;
+    }
+    NSDictionary *shop = self.detailItem;
+    TWTweetComposeViewController *tvc = [[TWTweetComposeViewController alloc] init];
+    UIImage *image = self.photoImageView.image;
+    [tvc addImage:image];
+    [tvc setInitialText:[NSString stringWithFormat:@"『%@』 - ",[shop objectForKey:@"name"]]];
+    NSURL *url = [NSURL URLWithString:[[shop objectForKey:@"urls"] objectForKey:@"pc"]];
+    [tvc addURL:url];
+    tvc.completionHandler = ^(TWTweetComposeViewControllerResult result){
+        [self dismissModalViewControllerAnimated:YES];
+    };
+    
+    [self presentModalViewController:tvc animated:YES];
+}
+
+参照
