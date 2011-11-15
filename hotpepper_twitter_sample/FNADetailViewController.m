@@ -168,6 +168,9 @@
     return annotationView;
 }
 - (IBAction)tweete:(id)sender {
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 5.0) {
+        return;
+    }
     if (![TWTweetComposeViewController canSendTweet]){
         // エラー処理
         return ;
