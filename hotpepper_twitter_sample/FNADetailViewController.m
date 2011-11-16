@@ -28,6 +28,7 @@
 @synthesize photoScrollView = _photoScrollView;
 @synthesize mapView = _mapView;
 @synthesize photoImageView = _photoImageView;
+@synthesize webView = _webView;
 @synthesize masterPopoverController = _masterPopoverController;
 
 #pragma mark - Managing the detail item
@@ -65,13 +66,16 @@
         
         MKCoordinateSpan span = MKCoordinateSpanMake(0.01, 0.01);
         MKCoordinateRegion cr = MKCoordinateRegionMake(co,span);
-        [self.mapView setRegion:cr animated:NO];
+        [self.mapView setRegion:cr animated:YES];
         
         
         FNACustomAnnotation* annotation = [[FNACustomAnnotation alloc] initWithLocation:co];
         annotation.title = [shop objectForKey:@"name"];
         annotation.subtitle = [shop objectForKey:@"address"];
+        [self.mapView removeAnnotations:self.mapView.annotations];
         [self.mapView addAnnotation:annotation];
+        
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[shop objectForKey:@"urls"] objectForKey:@"pc"]]]];
     }
 }
 
@@ -96,6 +100,7 @@
     [self setPhotoScrollView:nil];
     [self setMapView:nil];
     [self setPhotoImageView:nil];
+    [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

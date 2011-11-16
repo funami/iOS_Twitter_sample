@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *photoScrollView;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIAsyncImageView *photoImageView;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 - (IBAction)tweete:(id)sender;
 
